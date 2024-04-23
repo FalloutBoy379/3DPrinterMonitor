@@ -80,7 +80,7 @@ int main(int argc, char** argv) {
     centerMeshAtOrigin(mesh);
 
     // Save the centered mesh to a new OBJ file
-    std::string saveFilename = "./assets/centered_model.obj";
+    std::string saveFilename = "../../assets/centered_model.obj";
     saveOBJ(mesh, saveFilename);
     std::cout << "Saved centered model to " << saveFilename << std::endl;
 

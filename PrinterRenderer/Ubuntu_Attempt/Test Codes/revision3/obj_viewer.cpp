@@ -100,14 +100,14 @@ void display() {
     if (captureView > 0) {
         switch (captureView) {
             case 1:
-                saveScreenshot("img/z.png");
+                saveScreenshot("../../img/z.png");
                 break;
-            case 2:
-                saveScreenshot("img/y.png");
-                break;
-            case 3:
-                saveScreenshot("img/x.png");
-                break;
+            // case 2:
+            //     saveScreenshot("img/y.png");
+            //     break;
+            // case 3:
+            //     saveScreenshot("img/x.png");
+            //     break;
         }
         captureView = 0; // Reset the capture view
     }
@@ -129,30 +129,6 @@ void reshape(int width, int height) {
     gluPerspective(45.0f, ratio, 0.1f, 100.0f);
 
     glMatrixMode(GL_MODELVIEW);  // Switch back to the Modelview matrix
-}
-
-void keyboard(unsigned char key, int x, int y) {
-    switch (key) {
-        case '+':
-            scale *= 1.1f;
-            break;
-        case '-':
-            scale /= 1.1f;
-            break;
-        case 'a':
-            angle -= 5.0f;
-            break;
-        case 'd':
-            angle += 5.0f;
-            break;
-        case 'p':
-            captureView++;  // Start capturing screenshots
-            glutPostRedisplay();
-            break;
-        case 27: // ESC key
-            exit(0);
-            break;
-    }
 }
 
 void init() {
@@ -183,7 +159,7 @@ int main(int argc, char **argv) {
     //     return 1;
     // }
 
-    scene = importer.ReadFile("assets/centered_model.obj", aiProcess_Triangulate | aiProcess_JoinIdenticalVertices | aiProcess_GenNormals);
+    scene = importer.ReadFile("../../assets/centered_model.obj", aiProcess_Triangulate | aiProcess_JoinIdenticalVertices | aiProcess_GenNormals);
     if (!scene) {
         std::cerr << "Error: " << importer.GetErrorString() << std::endl;
         return 1;
@@ -198,8 +174,8 @@ int main(int argc, char **argv) {
     init();
     glutReshapeFunc(reshape);
     glutDisplayFunc(display);
-    glutKeyboardFunc(keyboard);
+    captureView = 1;
+    // glutKeyboardFunc(keyboard);
     glutMainLoop();
-
     return 0;
 }
