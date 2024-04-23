@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 23 Apr 2024 02:23:16 -0400
+Source: obj-renderer
+Binary: obj-renderer
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 1.0-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: ansh <ansh@bu.edu>
+Changed-By: ansh <ansh@unknown>
+Description:
+ obj-renderer - <insert up to 60 chars description>
+Changes:
+ obj-renderer (1.0-1) UNRELEASED; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 43e6b52a8a44d00b73176ca23394a38c4d1730b1 844 obj-renderer_1.0-1.dsc
+ e57f804f253a3b4cd69cd30def62c280c23ebe7f 41316 obj-renderer_1.0.orig.tar.xz
+ ee6746d9508e57a42d8be631062ed0a3688ae714 8560 obj-renderer_1.0-1.debian.tar.xz
+ 17516adf797b62032f02847ed9c27022fdde460d 5959 obj-renderer_1.0-1_amd64.buildinfo
+ dc79d3de1bf43aaaec5a84689985e01c447c0edd 2326 obj-renderer_1.0-1_amd64.deb
+Checksums-Sha256:
+ 6821666afac5b0dff4f793a1ae013e8f1e43bafab2ff49b7a513d9739406a9ee 844 obj-renderer_1.0-1.dsc
+ 2351b13eeb2f45cc0b4b056b4d9292fc8f5c025a1b3553bcd22381f0bfde94b0 41316 obj-renderer_1.0.orig.tar.xz
+ cb9584cc15b3280eed6ed808db09e5bec86875a871ee10367278b1beca52ec52 8560 obj-renderer_1.0-1.debian.tar.xz
+ cbe4cda8229d126aca9c128628b75f0b7b0eb1a94adeae28e1c9608ba6ba9d45 5959 obj-renderer_1.0-1_amd64.buildinfo
+ 70d4f5c14a860daddc044ce1100c0fc8b9e6f7c1e588f3dfa997f51c307270a9 2326 obj-renderer_1.0-1_amd64.deb
+Files:
+ 5b6be938b56dabaa212f3d527de077f9 844 3DPrinting optional obj-renderer_1.0-1.dsc
+ 5b07e428b22ebbc7705218c1d661a4fc 41316 3DPrinting optional obj-renderer_1.0.orig.tar.xz
+ c37833b5c0fcfdbc41cf7b291c8d5919 8560 3DPrinting optional obj-renderer_1.0-1.debian.tar.xz
+ d631104c845922fdae1a2cfa7ecbf45f 5959 3DPrinting optional obj-renderer_1.0-1_amd64.buildinfo
+ 2eaf9f681244452490a81f0d8c1384cb 2326 3DPrinting optional obj-renderer_1.0-1_amd64.deb

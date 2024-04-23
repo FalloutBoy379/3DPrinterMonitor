@@ -1,0 +1,10 @@
+Package: obj-renderer
+Version: 1.0-1
+Architecture: amd64
+Maintainer: ansh <ansh@bu.edu>
+Installed-Size: 12
+Section: 3DPrinting
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

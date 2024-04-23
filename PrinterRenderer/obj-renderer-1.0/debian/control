@@ -1,0 +1,16 @@
+Source: obj-renderer
+Section: 3DPrinting
+Priority: optional
+Maintainer: ansh <ansh@bu.edu>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/obj-renderer
+#Vcs-Git: https://salsa.debian.org/debian/obj-renderer.git
+Rules-Requires-Root: no
+
+Package: obj-renderer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
