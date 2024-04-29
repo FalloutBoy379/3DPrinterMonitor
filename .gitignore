@@ -1,0 +1,3 @@
+# Ignore specific deep directory paths causing issues
+PrinterRenderer/Ubuntu_Attempt/Test Codes/revision3/opencv-4.x/samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.WindowsPhone/video_capture_xaml.WindowsPhone.vcxproj.filters
+PrinterRenderer/Ubuntu_Attempt/Test Codes/revision3/opencv-4.x/samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.WindowsPhone/video_capture_xaml.WindowsPhone_TemporaryKey.pfx
