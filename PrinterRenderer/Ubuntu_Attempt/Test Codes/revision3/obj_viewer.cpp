@@ -14,7 +14,7 @@ float angle = 0.0f; // Rotation angle
 const float MAX_SIZE = 200.0f; // Maximum dimension of the bounding box
 
 // Global variables for camera position and view direction
-float camX = 50.0f, camY = 0.0f, camZ = 0.0f; // Camera position
+float camX = 0.0f, camY = 0.0f, camZ = 19.4f; // Camera position
 float lookX = 0.0f, lookY = 0.0f, lookZ = 0.0f; // View direction
 
 int captureView = 0;
