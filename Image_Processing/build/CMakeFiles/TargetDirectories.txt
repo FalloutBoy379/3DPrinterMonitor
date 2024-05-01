@@ -1,0 +1,9 @@
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/MyProject.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/Final.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/Camera.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/Converted.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/Webcam_new.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/Virtual.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/Scaleup.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/edit_cache.dir
+/Users/hersh/Desktop/Embedded/build/CMakeFiles/rebuild_cache.dir
